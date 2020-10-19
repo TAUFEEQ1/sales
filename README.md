@@ -1,4 +1,4 @@
-##Sales App Demo
+# Sales App Demo
 The project focuses on demonstrating static language programming capabilty as such, both API and Frontend utilised strong typed languages i.e (Golang, Typescript)
 
 ## How it Works 
