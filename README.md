@@ -10,7 +10,7 @@ The application consists of a preview table that shows paginated orders.<br>
 Users can view and sort all orders using the controls here.
 
 ### Report Upload
-Sample files (csv) are included in this repo under the testData folder
+Sample files (csv) are included in this repo under the prod/test-data folder.
 
 ### Date Filter
 
@@ -21,11 +21,15 @@ UI elements to the right of the screen show for a given date range:
 ## Background
 ### Front End
 Application files for the frontend are found in the directory sfront.<br>
-Main technologies involved here are the framework VueJs with the logic writter in typescript.
+Main technologies involved here are the framework VueJs with the logic writter in typescript.<br>
+Compiled assets for the client are available in the prod/dist folder.
+Any decent web server should be able to serve these.
 
 ### Backend
 Application files for the backend are found in the directory api.<br>
-Main technologies involved here are the framework buffalo and the language Golang.
+Main technologies involved here are the framework buffalo and the language Golang.<br>
+compiled assets for the backend are availabel in the prod/bin folder.<br>
+Compiled assets here are made into an executable, in this case this was a windows target machine.
 
 # Limitations & Possible Solutions
 ## File Uploads are extremely slow for large files.
