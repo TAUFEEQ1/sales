@@ -14,7 +14,7 @@ password:laboremus,
 database:sales}
 
 ### Create Your Databases
-Use the sales.sql dump file to initialise your database.
+Use the sales.sql dump in the ../prod/ folder (in the project root) file to initialise your database.
 
 ## Starting the Application
 
