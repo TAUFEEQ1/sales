@@ -26,3 +26,18 @@ Main technologies involved here are the framework VueJs with the logic writter i
 ### Backend
 Application files for the backend are found in the directory api.<br>
 Main technologies involved here are the framework buffalo and the language Golang.
+
+# Limitations & Possible Solutions
+## File Uploads are extremely slow for large files.
+These uploads can reduce the quality of the user experience by causing timeouts.
+
+### Use Of Web Workers (Front End)
+Web workers and file chuncking techniques with (Browser File Api) can help prevent blocking the main thread.
+
+### Use of workers in buffalo (Backend)
+This will solve timeouts and the requirement for persistent connections.
+
+### Use of Server Events
+The client would simply subscribe to the server events. However this still requires a persistent connection.
+
+
