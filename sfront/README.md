@@ -1,4 +1,6 @@
-# sfront
+# Sales App Demo Frontend
+
+Ensure you have npm and node installed.
 
 ## Project setup
 ```
