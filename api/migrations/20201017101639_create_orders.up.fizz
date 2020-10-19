@@ -1,0 +1,17 @@
+create_table("orders") {
+  t.Column("region","string",{"null":true})
+  t.Column("country","string",{"null":true})
+  t.Column("itemType","string",{"null":true})
+  t.Column("salesChannel","string",{"default":"Offline"})
+  t.Column("orderPriority","string")
+  t.Column("orderDate","date")
+  t.Column("id", "integer", {primary: true})
+  t.Column("orderId","integer",{"unique":true})
+  t.Column("shipDate","date")
+  t.Column("unitsSold","integer")
+  t.Column("unitPrice","float")
+  t.Column("unitCost","float")
+  t.Column("totalRevenue","float")
+  t.Column("totalCost","float")
+  t.Column("totalProfit","float")
+}
