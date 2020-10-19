@@ -21,7 +21,7 @@ UI elements to the right of the screen show for a given date range:
 ## Background
 ### Front End
 Application files for the frontend are found in the directory sfront.<br>
-Main technologies involved here are the framework VueJs with the logic writter in typescript.<br>
+Main technologies involved here are the framework VueJs with the logic written in typescript.<br>
 Compiled assets for the client are available in the prod/dist folder.
 Any decent web server should be able to serve these.
 
