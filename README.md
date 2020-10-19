@@ -1,7 +1,6 @@
 # Sales App Demo
 The project focuses on a sales storage/retrieval business use case.<br>
-Since there was a strong typed language requirement by the client,<br>
-choices for Golang and Typescript were made.
+Since there was a strong typed language requirement by the client,choices for Golang and Typescript were made.
 
 ## How it Works 
 
