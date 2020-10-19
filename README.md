@@ -1,5 +1,7 @@
 # Sales App Demo
-The project focuses on demonstrating static language programming capabilty as such, both API and Frontend utilised strong typed languages i.e (Golang, Typescript)
+The project focuses on a sales storage/retrieval business use case.<br>
+Since there was a strong typed language requirement by the client,<br>
+choices for Golang and Typescript were made.
 
 ## How it Works 
 
