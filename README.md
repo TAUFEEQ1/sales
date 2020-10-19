@@ -23,4 +23,4 @@ Main technologies involved here are the framework VueJs with the logic writter i
 
 ### Backend
 Application files for the backend are found in the directory api.
-Main technologies involved here are the framework 
+Main technologies involved here are the framework buffalo and the language Golang.
