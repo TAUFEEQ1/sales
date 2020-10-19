@@ -31,6 +31,10 @@ Main technologies involved here are the framework buffalo and the language Golan
 compiled assets for the backend are availabel in the prod/bin folder.<br>
 Compiled assets here are made into an executable, in this case this was a windows target machine.
 
+### Seed Data (Database)
+The database used is a mysql database whose dump file can be found<br>
+in the folder prod.<br>
+<b>PLEASE ENSURE YOU RESTORE YOUR DATABASE FROM THIS FILE BEFORE RUNNING THE APP<b>
 # Limitations & Possible Solutions
 ## File Uploads are extremely slow for large files.
 These uploads can reduce the quality of the user experience by causing timeouts.
