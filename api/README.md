@@ -1,20 +1,20 @@
-# Welcome to Buffalo!
+# Sales App Demo Buffalo Backend!
 
-Thank you for choosing Buffalo for your web development needs.
+First ensure that you have buffalo installed. https://gobuffalo.io/en/docs/getting-started/installation
 
 ## Database Setup
 
-It looks like you chose to set up your application using a database! Fantastic!
+The first thing you need to do is open up the "database.yml" file and edit it to use the correct usernames, passwords, hosts, etc... 
+that are appropriate for your environment.
 
-The first thing you need to do is open up the "database.yml" file and edit it to use the correct usernames, passwords, hosts, etc... that are appropriate for your environment.
-
-You will also need to make sure that **you** start/install the database of your choice. Buffalo **won't** install and start it for you.
+For this example the relevant database is mysql with credentials in the database.yml
+i.e {
+username:laboremus,
+password:laboremus,
+database:sales}
 
 ### Create Your Databases
-
-Ok, so you've edited the "database.yml" file and started your database, now Buffalo can create the databases in that file for you:
-
-	$ buffalo pop create -a
+Use the sales.sql dump file to initialise your database.
 
 ## Starting the Application
 
@@ -26,10 +26,8 @@ If you point your browser to [http://127.0.0.1:3000](http://127.0.0.1:3000) you 
 
 **Congratulations!** You now have your Buffalo application up and running.
 
-## What Next?
+## Dependencies
+The command $ go get -u -v -f all will install all listed dependencies
 
-We recommend you heading over to [http://gobuffalo.io](http://gobuffalo.io) and reviewing all of the great documentation there.
-
-Good luck!
-
-[Powered by Buffalo](http://gobuffalo.io)
+## Compiled Binaries.
+The command $ buffalo build will compile the application. 
